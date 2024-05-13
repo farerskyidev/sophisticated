@@ -1,0 +1,40 @@
+@use "sass:math";
+
+@import "mixins/functions";
+@import "mixins/mixins"; 
+@import "fonts";   
+
+
+// Base custom typography style set 
+$font-family-montserrat: 'Montserrat', sans-serif;
+$font-family-prosto-one: 'Prosto One', sans-serif;
+$font-family-spartan: 'League Spartan', sans-serif;
+
+// Base typography style
+$base-font-size: 16px; // Sets the base font size
+$base-line-height: 1.8; // Sets the base line height
+$base-font-family: $font-family-montserrat; // Sets the base font family   
+
+
+
+// Colors
+
+$background-primary: linear-gradient(284.43deg, rgba(0, 4, 103, 0.44) 15.71%, rgba(255, 255, 255, 0) 65.83%);
+
+$background-cocoa-brown-light: rgba(42, 32, 23, 0.4);
+$background-calico-light: rgba(214, 174, 139, 0.12);
+$background-black-light: rgba(0, 0, 0, 0.6);
+$box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+$dark-blue: #184166;
+$blue-color: #184166;
+$white-color: #ffffff;
+$white-smoke-color: #f4f4f4; 
+
+$black-color: #000000;
+$cocoa-brown-color: #2a2017;
+$night-rider-color: #323232;
+$charcoal-color: #4A4A4A;
+$white-linen-color: #EDE3D9;
+
+
+$red-color: #a31616; 

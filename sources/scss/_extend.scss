@@ -1,0 +1,97 @@
+@import "variables";
+%h, p , a, span, img, ul {
+    &::selection {
+        background-color: $black-color;
+        color: $white-color;
+    }
+}
+%h {
+    clear: both;
+    margin: 0;
+    line-height: 1.25;
+    font-weight: 700;
+    font-family: $font-family-prosto-one; 
+    line-height: 145%;
+    &:first-child { 
+        padding-top: 0; 
+    }
+    @media (max-width: 992px) {
+        margin-bottom: 0;
+        line-height: 150%!important; 
+    }
+}
+
+%h1 {
+    font-size: rem(120);
+    font-weight: 400;
+    line-height: 68.4px;
+    font-family: $font-family-spartan; 
+    line-height: 175px;
+    @media (max-width: 991px) {
+        font-size: rem(80);
+    }
+    @media (max-width: 767px) {
+        font-size: rem(65);
+    }
+    @media (max-width: 426px) {
+        font-size: rem(40);
+        line-height: 150%!important;
+    }
+}
+%h2 {
+    font-size: rem(61);
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 90px;
+    
+    span {
+        color: $dark-blue; 
+    }
+    @media (max-width: 1440px) {
+        font-size: rem(48)!important;
+    }
+    @media (max-width: 991px) {
+        font-size: rem(40);
+    }
+    @media (max-width: 426px) {
+        font-size: rem(24)!important;
+    }
+}
+%h3 {
+
+}
+%h4 {
+    font-size: rem(40);
+    font-weight: 400;
+    line-height: rem(60);
+    @media (max-width: 991px) {
+        font-size: rem(32);
+    }
+    @media (max-width: 575px) {
+        font-size: rem(26);
+        line-height: rem(48);
+    }
+}
+%h5 {
+    font-size: rem(24);
+    line-height: rem(28);
+    font-weight: 500;
+}
+%h6 {
+    font-size: rem(20);
+    font-weight: 400;
+}
+p {
+    font-size: rem(14);
+    font-weight: 400;
+    line-height: 211.9%;
+    font-family: $font-family-montserrat;
+}
+
+%size18 {
+    font-size: rem(18); 
+}
+
+%size14 {
+    font-size: rem(14);
+}
